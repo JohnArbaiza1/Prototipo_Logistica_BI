@@ -1,8 +1,25 @@
-# Power BI – Prototipo Logística
+# 🚚 Prototipo Logística | Business Intelligence
 
-Este repositorio contiene el archivo de Power BI del proyecto Prototipo Logística, desarrollado para visualizar y analizar la información procesada por el pipeline ETL.
+<div align="center">
 
-El dashboard obtiene sus datos desde una base de datos PostgreSQL correspondiente al Data Warehouse (DW), construido a partir de la base de datos operacional (OLTP) mediante un proceso ETL.
+**Análisis y visualización del desempeño de las operaciones logísticas con Power BI y PostgreSQL ETL.**
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-243B53)]()
+[![Status](https://img.shields.io/badge/Estado-Prototipo-0A7B83)]()
+
+</div>
+
+---
+
+## 📌 Descripción
+
+**Prototipo Logística BI** es la capa de análisis y visualización de un proyecto orientado al seguimiento de las operaciones logísticas. El informe fue desarrollado en Microsoft Power BI y consume información almacenada en un Data Warehouse (DW) de PostgreSQL.
+
+Los datos se originan en una base operacional (OLTP), son procesados mediante un pipeline ETL y posteriormente organizados en un modelo dimensional para facilitar su análisis.
+
+Este repositorio contiene el archivo de Power BI y la documentación necesaria para preparar el acceso de lectura al Data Warehouse.
 
 # 1. Crear el usuario de acceso para Power BI
 Por seguridad, Power BI utilizará un usuario independiente con permisos exclusivamente de lectura.

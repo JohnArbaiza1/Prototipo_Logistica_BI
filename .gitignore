@@ -1,0 +1,34 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux / editores
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Power BI: archivos temporales y respaldos
+~$*.pbix
+*.pbit~
+*.pbix.autosave
+*.bak
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Logs
+*.log
