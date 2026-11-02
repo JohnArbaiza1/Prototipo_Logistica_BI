@@ -109,7 +109,7 @@ Detalles del modelo en Power BI:
 - No debe haber relaciones entre tablas de hechos (por ejemplo por `hecho_id`, que solo es un consecutivo de cada tabla).
 - `dim_tiempo` está marcada como tabla de fechas (columna `fecha`) y excluye el miembro «sin fecha».
 - La tabla `Meses` contiene los doce meses para el selector, aunque aún no haya datos de todos.
-- La tabla `Medidas` solo contiene las medidas DAX (ver [`medidas_dax.md`](medidas_dax.md)).
+- La tabla `Medidas` solo contiene las medidas DAX 
 
 No se deben asumir relaciones solo por coincidencia de nombres de columnas. Verifica cardinalidad, dirección de filtro y claves antes de modificarlas.
 
